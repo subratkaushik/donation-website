@@ -1,0 +1,28 @@
+body{
+
+    background-image: url(img/img.jpg);
+    background-size:cover;
+}
+.carsual{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+}   
+.about{
+    background-color:silver;
+    margin-top: 50px;
+}
+
+
+#button{
+    display: flex;
+     
+}
+.aboutlogo{
+    text-decoration: none;
+}
