@@ -18,6 +18,22 @@ body{
     margin-top: 50px;
 }
 
+.down-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(11, 151, 239);
+	border: 1px solid white;
+	padding: 12px 34px;
+	font-size: 17px;
+	background: purple;
+	position: relative;
+	cursor: pointer;
+}
+.down-btn:hover{
+	border: 1px solid rgb(11, 0, 11);
+	background: violet;
+	transition: 1s;
+}
 
 #button{
     display: flex;
