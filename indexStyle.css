@@ -1,28 +1,79 @@
 body{
-
-    background-image: url(img/img.jpg);
-    background-size:cover;
+    /* background-image: url(img/img.jpg);
+    background-size:cover; */
+    
 }
-.carsual{
+
+.landpage {
+    color: rgb(0, 0, 0);
+    position: relative; 
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
-    height: 249px;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    justify-content: center;
+}
 
-}   
-.about{
-    background-color:silver;
-    margin-top: 50px;
+.landpage::before {    
+    content: "";
+    background-image: url('/img/img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
 }
 
 
+.banner{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  color: #000000;  
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about{
+    background-color:rgba(177, 189, 173, 0.74);
+    color: black;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 7vh;
+    font-size: 1.4rem;
+}
+
+.row{
+    margin-top: 20px;
+}
 #button{
     display: flex;
      
 }
 .aboutlogo{
     text-decoration: none;
+}
+
+
+
+.btn-hover{
+    /* z-index: 1; */
+    width: 11vw;
+    border-radius: 10px;
+    height: 8vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(12, 92, 18), #43ff13) border-box;
+    color: #000000;
+    border: 3px solid transparent;
+    display: inline-block;
+    font-size: 1.5rem;
+      
 }
