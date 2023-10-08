@@ -12,34 +12,41 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="Donate.css">
+  <link rel="stylesheet" href="indexStyle.css">
 </head>
 
 <body>
   <!-- Navbar -->
 
-  <nav class="navbar ">
-    <div class="container-fluid">
-      <a class="navbar-brand" style="font-family: cursive; font-weight: bold;" href="index.html">Better World</a>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">
-          <atyle="font-family: cursive;>Search</a>
-        </button>
-      </form>
-    </div>
-  </nav>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light csnavbar"
+      style="box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);">
+      <a class="navbar-brand" href="index.html"
+        style="color: rgb(73, 28, 197); font-family: monospace; font-size: 1.6rem;">Better World</a>
+      <ul class="navbar-nav mr-auto" style="color: black; font-weight: bold; font-size: 1.2rem;">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Programs</a>
+        </li>
 
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      
+
+    </nav>
+  </div>
   <div class="container">
     <a class="testing">
-      <h4>"Thanks for thninking of donation, You are doing a good job"</h4>
-
+      <h4>Thanks for thinking of donation, You are doing a good job</h4>
+      <br>
       <form>
         <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HXGAD1OW3dYDJx"
           async> </script>
       </form>
-
-
-
 
     </a>
   </div>
@@ -49,27 +56,28 @@
     <div class="container-lg">
       <div class="row">
         <div class="col-12 col-md">
-          <img class="mb-2" src="img/logo.PNG" alt="" width="130" height="100">
-          <small class="d-block mb-3 text-muted">© 2021–2022</small>
+          <img class="mb-2" src="img/logo.PNG" alt="" width="70" height="70">
+          <br>
+          <small style="color: black;">© 2021–2022</small>
         </div>
         <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Food services</a></li>
-            <li><a class="link-secondary" href="#">Shelter services</a></li>
-            <li><a class="link-secondary" href="#">Medical facilities</a></li>
+          <h5 style="font-size: 2rem; font-weight: bold;">Features</h5>
+          <ul class="list-unstyled" style="color: black;">
+            <li><a class="link-dark" href="#" style="text-decoration: none;">Food services</a></li>
+            <li><a class="link-dark" href="#" style="text-decoration: none;">Shelter services</a></li>
+            <li><a class="link-dark" href="#" style="text-decoration: none;">Medical facilities</a></li>
 
           </ul>
         </div>
 
         <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small aboutlogo">
-            <li><a href="https://github.com/subratkaushik" class="fa fa-github"></a>Subrat Kaushik</li>
-            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/subrat-kaushik-0658b6217/"></a> Subrat Kaushik
+          <h5 style="font-size: 2rem; font-weight: bold;">About</h5>
+          <ul class="list-unstyled text-small aboutlogo" >
+            <li ><a style="text-decoration: none; color: black;" href="https://github.com/subratkaushik" class="fa fa-github" target="_blank"></a> Subrat Kaushik</li>
+            <li><a style="text-decoration: none; color: blue;" class="fa fa-linkedin" href="https://www.linkedin.com/in/rohan-kumar-a0b898194/" target="_blank"></a> subrat kaushik
             </li>
-            <li><a href="https://www.youtube.com/channel/UCe1tUq2hpfFqYVvPz77pWag" class="fa fa-youtube"></a>Subrat Kaushik</li>
-
+            <li><a style="text-decoration: none; color: red;" href="https://www.youtube.com/channel/UCe1tUq2hpfFqYVvPz77pWag" class="fa fa-youtube" target="_blank"></a> Subrat
+              Kaushik</li>
           </ul>
         </div>
       </div>
