@@ -1,20 +1,20 @@
 body{
 
     background-image: url(img/img.jpg);
-    background-size:cover;
+    background-size:contain;
 }
 .carsual{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 249px;
+    height: 250px;
     margin-top: 200px;
     margin-bottom: 100px;
 
 }   
 .about{
-    background-color:silver;
+    background-color:lavender;
     margin-top: 50px;
 }
 
@@ -24,5 +24,5 @@ body{
      
 }
 .aboutlogo{
-    text-decoration: none;
+    text-decoration: overline;
 }
